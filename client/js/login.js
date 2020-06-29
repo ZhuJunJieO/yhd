@@ -1,18 +1,23 @@
 $(() => {
+    $(".auto").click(function(){
 
-    $(".tab-login-item").click(function() {
-        /* (1) 设置当前标签的选中状态 */
-        $(this).addClass("active").siblings().removeClass("active");
-        /* (2) 切换显示对应的内容 */
-
-        let index = $(this).index();
-        $(".loginView").eq(index).addClass("loginViewCurrent").siblings().removeClass("loginViewCurrent");
+        let isCheck = $(".auto").is(":checked");
+        if (!isCheck) {
+            $(".auto").next().next().removeClass("active");
+        }else{
+            $(".auto").next().next().addClass("active");
+        }
     })
-
+    $(".login").mouseenter(function(){
+        $(".agree").css("display","block");
+    })
+    $(".login").mouseleave(function(){
+        $(".agree").css("display","none");
+    })
     /* 获取登录按钮，添加事件 */
-    $("#loginBtn").click(function() {
-        let username = $.trim($("#username-ID").val());
-        let password = $.trim($("#password-ID").val());
+    $(".login").click(function() {
+        let username = $.trim($("#username").val());
+        let password = $.trim($("#pwd").val());
 
         /* 先检查用户名和密码和是否勾选，都满足则发请求 */
         if (username.length == 0) {
@@ -25,22 +30,18 @@ $(() => {
             return;
         }
 
-        if (!$("#protocol").is(":checked")) {
-            alert("请阅读并同意用户协议");
-            return;
-        }
-
         $.ajax({
             type: "post",
             url: "../../server/login.php",
             dataType: "json",
-            data: `username=${username}&password=${md5(password).slice(0,15)}`
+            data: `username=${username}&password=${password}`
         }).done(data => {
             // alert(data.msg);
             /* 如果 */
             if (data.status == "success") {
                 alert(data.msg);
                 /* 跳转 */
+                location.href="../html/index.html"
             } else {
                 alert(data.msg);
             }
