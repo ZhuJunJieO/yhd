@@ -1,0 +1,185 @@
+body #header {
+  /* header */
+  width: 1500px;
+  height: 82px;
+  padding: 16px;
+  border: 1px solid #e1e1e1;
+}
+body #header .header-wrap {
+  width: 1200px;
+  height: 82px;
+  padding: 10px 0 0 150px;
+}
+body #header .header-wrap .header_left {
+  width: 145px;
+  height: 55px;
+  float: left;
+}
+body #header .header-wrap .header_left h1,
+body #header .header-wrap .header_left a,
+body #header .header-wrap .header_left img {
+  height: 55px;
+}
+body #header .header-wrap .header_right {
+  width: 294px;
+  height: 20px;
+  line-height: 18px;
+  font-family: "SimSun";
+  color: #999;
+  float: right;
+  font-size: 12px;
+}
+body #header .header-wrap .header_right .color {
+  color: #06c;
+  line-height: 18px;
+}
+body #header .header-wrap .header_right .color:hover {
+  color: pink;
+}
+body #header .header-wrap .header_right select {
+  height: 20px;
+  line-height: 18px;
+}
+body #content {
+  /*content*/
+  width: 1520px;
+  height: 429px;
+  padding: 26px 0 0;
+}
+body #content .content-wrap {
+  width: 980px;
+  height: 402px;
+  margin: 0 auto;
+}
+body #content .content-wrap .content_left {
+  width: 510px;
+  height: 315px;
+  float: left;
+}
+body #content .content-wrap .content_left img {
+  width: 510px;
+  height: 270px;
+  margin-top: 45px;
+}
+body #content .content-wrap .content_right {
+  width: 330px;
+  padding: 45px 35px 0 35px;
+  float: right;
+}
+body #content .content-wrap .content_right .right_top {
+  width: 330px;
+  height: 30px;
+}
+body #content .content-wrap .content_right .right_top h2 {
+  float: left;
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+  line-height: 30px;
+}
+body #content .content-wrap .content_right .right_top a {
+  display: block;
+  float: right;
+  line-height: 30px;
+  color: #06c;
+}
+body #content .content-wrap .content_right .form {
+  margin-top: 10px;
+  width: 330px;
+  height: 214px;
+  background: #FFF;
+}
+body #content .content-wrap .content_right .form li {
+  font-size: 17px;
+  color: #333;
+}
+body #content .content-wrap .content_right .form li input {
+  width: 250px;
+  height: 20px;
+  margin-bottom: 10px;
+  padding: 14px 18px;
+  border: 1px solid #dedede;
+  background: #FFF;
+  line-height: 20px;
+  margin-left: 2px;
+}
+body #content .content-wrap .content_right .form .remember {
+  width: 330px;
+  height: 24px;
+}
+body #content .content-wrap .content_right .form .remember input {
+  display: block;
+  float: left;
+  height: 18px;
+  width: 18px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+body #content .content-wrap .content_right .form .remember a:nth-of-type(1) {
+  display: block;
+  float: left;
+  margin-left: 10px;
+  color: #999;
+  font-size: 14px;
+}
+body #content .content-wrap .content_right .form .remember a:nth-of-type(2) {
+  display: block;
+  float: right;
+  color: #999;
+  font-size: 14px;
+}
+body #content .content-wrap .content_right .form .remember b {
+  font-size: 14px;
+  float: left;
+  margin-left: 10px;
+  color: red;
+  display: none;
+}
+body #content .content-wrap .content_right .form .remember .login {
+  width: 330px;
+  height: 52px;
+  border: 0 none;
+  border-radius: 3px;
+  background: #ff3c3c;
+  font-size: 16px;
+  color: #FFF;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #ff7373;
+  font-family: "Microsoft YaHei";
+  line-height: 52px;
+  margin-top: 10px;
+}
+body #content .content-wrap .content_right .form .remember .agree {
+  font-size: 13px;
+  float: left;
+  margin-top: 5px;
+}
+body #content .content-wrap .content_right .form .remember .agree a {
+  float: right;
+  font-size: 13px;
+  color: blue;
+}
+body #content .content_buttom {
+  margin-top: 30px;
+}
+body #content .content_buttom,
+body #content img {
+  width: 330px;
+}
+body #footer {
+  width: 980px;
+  margin: 20px auto 0;
+  text-align: center;
+  height: 100px;
+  margin-top: 50px;
+  font-size: 12px;
+}
+body #footer a {
+  color: #333333;
+}
+body #footer p {
+  margin-top: 10px;
+}
+body #footer a:hover {
+  color: pink;
+}
