@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/public.css">
     <link rel="stylesheet" href="../css/register.css">
-    <style src="../js/jquery-3.4.1.js"></style>
-    <style src="../js/register.js"></style>
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/captcha.js"></script>
+    <script src="../js/register.js"></script>
+    
 </head>
 
 <body>
@@ -54,15 +56,15 @@
                             <span class="label">验证码</span>
                             <div class="content">
                                 <input type="text" placeholder="请输入验证码" id="code">
+                                <span class="massage" id="yzm"></span>
                                 <div class="code-box">
-                                    <canvas width="160" height="45" id="captcha"></canvas>
+                                    <canvas width="160" height="50" id="captcha"></canvas>
                                 </div>
-                                <span class="massage"></span>
                             </div>
                             <div class="form_item pwdA">
                                 <span class="label">密码</span>
                                 <div class="content">
-                                    <input type="text" placeholder="请设置您的密码" id="pwdAID">
+                                    <input type="text" placeholder="请设置您的密码为6-8位" id="pwdAID">
                                     <span class="massage"></span>
                                 </div>
                                 <div class="form_item pwdB">
@@ -100,6 +102,5 @@
     </div>
 
 </body>
-
 
 </html>
