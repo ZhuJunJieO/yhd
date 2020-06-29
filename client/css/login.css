@@ -1,45 +1,4 @@
-body #header {
-  /* header */
-  width: 1500px;
-  height: 82px;
-  padding: 16px;
-  border: 1px solid #e1e1e1;
-}
-body #header .header-wrap {
-  width: 1200px;
-  height: 82px;
-  padding: 10px 0 0 150px;
-}
-body #header .header-wrap .header_left {
-  width: 145px;
-  height: 55px;
-  float: left;
-}
-body #header .header-wrap .header_left h1,
-body #header .header-wrap .header_left a,
-body #header .header-wrap .header_left img {
-  height: 55px;
-}
-body #header .header-wrap .header_right {
-  width: 294px;
-  height: 20px;
-  line-height: 18px;
-  font-family: "SimSun";
-  color: #999;
-  float: right;
-  font-size: 12px;
-}
-body #header .header-wrap .header_right .color {
-  color: #06c;
-  line-height: 18px;
-}
-body #header .header-wrap .header_right .color:hover {
-  color: pink;
-}
-body #header .header-wrap .header_right select {
-  height: 20px;
-  line-height: 18px;
-}
+
 body #content {
   /*content*/
   width: 1520px;
@@ -165,21 +124,4 @@ body #content .content_buttom {
 body #content .content_buttom,
 body #content img {
   width: 330px;
-}
-body #footer {
-  width: 980px;
-  margin: 20px auto 0;
-  text-align: center;
-  height: 100px;
-  margin-top: 50px;
-  font-size: 12px;
-}
-body #footer a {
-  color: #333333;
-}
-body #footer p {
-  margin-top: 10px;
-}
-body #footer a:hover {
-  color: pink;
 }

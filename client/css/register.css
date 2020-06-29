@@ -1,0 +1,94 @@
+body #main {
+  width: 1500px;
+  position: relative;
+  border-bottom: 1px solid #f4f4f4;
+  background: #fcfcfc;
+  padding: 30px 0 40px;
+  overflow: hidden;
+}
+body #main .main-wrap {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+body #main .main-wrap .main_con {
+  width: 530px;
+  margin: 0 auto;
+  position: relative;
+}
+body #main .main-wrap .main_con h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 50px;
+  color: #333;
+}
+body #main .main-wrap .main_con .form_item {
+  width: 530px;
+  margin: 0 auto;
+}
+body #main .main-wrap .main_con .form_item .label {
+  display: block;
+  width: 100px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+  align-content: center;
+  margin-left: 10px;
+}
+body #main .main-wrap .main_con .form_item .content {
+  height: 70px;
+  position: relative;
+}
+body #main .main-wrap .main_con .form_item .content input {
+  width: 330px;
+  height: 50px;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+body #main .main-wrap .main_con .form_item .content .massage {
+  position: absolute;
+  display: block;
+  width: 160px;
+  line-height: 50px;
+  color: #666;
+  left: 470px;
+  top: 0px;
+  background: #f5f5a7;
+  text-align: center;
+}
+body #main .main-wrap .main_con .form_item .content #code {
+  width: 165px;
+  float: left;
+}
+body #main .main-wrap .main_con .form_item .content .code-box {
+  width: 160px;
+  float: right;
+  height: 50px;
+  border: 1px solid red;
+  float: left;
+}
+body #main .main-wrap .main_con .form_item .button {
+  width: 330px;
+  height: 52px;
+  background-color: #ff3c3c;
+  font-size: 16px;
+  line-height: 52px;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+body #main .main-wrap .main_con .form_item .button:hover {
+  background-color: #df0909;
+}
+body #main .main-wrap .main_con .form_item #yhd {
+  margin-left: 110px;
+  margin-top: 20px;
+}
+body #main .main-wrap .main_con .form_item #yhd #protocol {
+  width: 16px;
+  height: 16px;
+}
