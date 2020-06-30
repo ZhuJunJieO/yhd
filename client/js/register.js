@@ -1,5 +1,4 @@
 $(()=>{
-
     let imgCode;
     /*不传值，统一走默认值*/
     let captcha = new Captcha({
@@ -47,9 +46,8 @@ $(()=>{
             msg: "图形验证码不正确！"
         }
     }
-    $(".main_con input").blur(function() {
+    $(".main_con").on("blur","input",function() {
         let option_id = this.id;
-        console.log("option_id", options[option_id]);
 
         let val = $.trim($(this).val());
 
@@ -63,6 +61,9 @@ $(()=>{
       $("#registerBtn").click(function() {
         /* [1] 检查表单验证是否全部都通过，如果有一个没有通过那么就return  */
         $("#phoneID,#usernameID,#pwdAID,#pwdBID,#code").trigger("blur");
+        if($(".massage").text()!=""){
+            return;
+        }
         //判断是否勾选
         let isCheck = $("#protocol").is(":checked");
         if (!isCheck) {

@@ -1,0 +1,94 @@
+body{
+    font: 12px "Microsoft YaHei",Helvetica Neue,tahoma,Arial,Verdana,"Hiragino Sans GB","\5b8b\4f53";
+    #top{
+        // 最顶部信息栏
+        height: 30px;
+        border-bottom: 1px solid #e5e5e5;
+        background-color: #f4f4f4;
+        line-height: 30px;
+        .top-wrap{
+            width: 1070px;
+            height: 30px;
+            margin: 0 auto;
+            .top_left{
+                width: 380px;
+                height: 30px;
+                float: left;
+                .left_left{
+                    width: 120px;
+                    float: left;
+                    i{color: #ff4040; }
+                    .text{padding-left: 3px;}
+                }
+                .left_left:hover{color:#ff4040 ;}
+                .left_right{
+                    width: 250px;
+                    height: 30px;
+                    line-height: 30px;
+                    overflow: hidden;
+                    .icon-laba{
+                        float: left;
+                        color: #ff4040;
+                        padding-left: 10px;
+                        font-size: 14px;
+                        line-height: 30px;
+                    }
+                    .laba{
+                        float: left;
+                        line-height: 30px;
+                        .text{color: #333333;}
+                    }
+                }
+            }
+            .top_right{
+                width:320px;
+                height: 30px;
+                float: right;
+                span,.pLogin,.pRegister,.iconfont{
+                    display: block;
+                    float: left;
+                    margin-left: 5px;
+                }
+                .hi{color: #666666;}
+                .pLogin{color: #ff4040;margin-right: 10px;}
+                .iconfont{color: #ff4040;font-size: 18px;}
+                .pRegister{color:#aaa;margin-right: 5px;}
+                .pRegister:hover{color: #ff4040;}
+                .buy{font-size: 12px;}
+            }
+        }
+    }
+    .header-wrap{
+        width: 1070px;
+        height: 180px;
+        margin: 0 auto;
+        background-color: skyblue;
+        .header_left{
+            width: 300px;
+            height: 140px;
+            float: left;
+            position: relative;
+            z-index: 20;
+            .logo{
+                width: 140px;
+                height: 50px;
+                img{
+                    width: 140px;
+                    height: 140px;
+                }
+            }
+            .slogo{
+                width: 160px;
+                height: 90px;
+                position: absolute;
+                left: 140px;
+                top: 35px;
+                z-index: 1;
+                img{
+                    width: 160px;
+                    height: 90px;
+                }
+            }
+        }
+    }
+}

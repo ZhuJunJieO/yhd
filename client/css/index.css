@@ -1,0 +1,119 @@
+body {
+  font: 12px "Microsoft YaHei", Helvetica Neue, tahoma, Arial, Verdana, "Hiragino Sans GB", "\5b8b\4f53";
+}
+body #top {
+  height: 30px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #f4f4f4;
+  line-height: 30px;
+}
+body #top .top-wrap {
+  width: 1070px;
+  height: 30px;
+  margin: 0 auto;
+}
+body #top .top-wrap .top_left {
+  width: 380px;
+  height: 30px;
+  float: left;
+}
+body #top .top-wrap .top_left .left_left {
+  width: 120px;
+  float: left;
+}
+body #top .top-wrap .top_left .left_left i {
+  color: #ff4040;
+}
+body #top .top-wrap .top_left .left_left .text {
+  padding-left: 3px;
+}
+body #top .top-wrap .top_left .left_left:hover {
+  color: #ff4040;
+}
+body #top .top-wrap .top_left .left_right {
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+body #top .top-wrap .top_left .left_right .icon-laba {
+  float: left;
+  color: #ff4040;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 30px;
+}
+body #top .top-wrap .top_left .left_right .laba {
+  float: left;
+  line-height: 30px;
+}
+body #top .top-wrap .top_left .left_right .laba .text {
+  color: #333333;
+}
+body #top .top-wrap .top_right {
+  width: 320px;
+  height: 30px;
+  float: right;
+}
+body #top .top-wrap .top_right span,
+body #top .top-wrap .top_right .pLogin,
+body #top .top-wrap .top_right .pRegister,
+body #top .top-wrap .top_right .iconfont {
+  display: block;
+  float: left;
+  margin-left: 5px;
+}
+body #top .top-wrap .top_right .hi {
+  color: #666666;
+}
+body #top .top-wrap .top_right .pLogin {
+  color: #ff4040;
+  margin-right: 10px;
+}
+body #top .top-wrap .top_right .iconfont {
+  color: #ff4040;
+  font-size: 18px;
+}
+body #top .top-wrap .top_right .pRegister {
+  color: #aaa;
+  margin-right: 5px;
+}
+body #top .top-wrap .top_right .pRegister:hover {
+  color: #ff4040;
+}
+body #top .top-wrap .top_right .buy {
+  font-size: 12px;
+}
+body .header-wrap {
+  width: 1070px;
+  height: 180px;
+  margin: 0 auto;
+  background-color: skyblue;
+}
+body .header-wrap .header_left {
+  width: 300px;
+  height: 140px;
+  float: left;
+  position: relative;
+  z-index: 20;
+}
+body .header-wrap .header_left .logo {
+  width: 140px;
+  height: 50px;
+}
+body .header-wrap .header_left .logo img {
+  width: 140px;
+  height: 140px;
+}
+body .header-wrap .header_left .slogo {
+  width: 160px;
+  height: 90px;
+  position: absolute;
+  left: 140px;
+  top: 35px;
+  z-index: 1;
+}
+body .header-wrap .header_left .slogo img {
+  width: 160px;
+  height: 90px;
+}
