@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/iconfont.css">
     <script src="../js/jquery-3.4.1.js"></script>
     <script src="../js/index.js"></script>
+    <script src="../js/Slider.js"></script>
 </head>
 <body>
     <!--top -->
@@ -50,16 +51,205 @@
     <!-- header -->
     <div class="header-wrap">
         <div class="header_left">
-            <a href="./index.html" class="logo">
-            <img src="https://img.yihaodianimg.com/front-homepage/global/images/logo/logo_new@2x.png" alt="">
-            </a>
-            <a target="_blank" class="slogo href="">
-                <img src="https://img30.360buyimg.com/img/jfs/t28237/269/997297430/10022/b24f8009/5c05314cNf894bdef.jpg"></div>
-            </a>
+            <a href="./index.html" class="logo"><img src="https://img.yihaodianimg.com/front-homepage/global/images/logo/logo_new@2x.png" alt=""></a>
+            <a target="_blank" class="slogo href="#"><img src="https://img30.360buyimg.com/img/jfs/t28237/269/997297430/10022/b24f8009/5c05314cNf894bdef.jpg"></a>
+        </div>
+        <div class="header_right">
+            <div class="search">
+                <input type="text" value="钢琴">
+                <button class="iconfont icon-sousuo"></button>
+            </div>
+            <button class="cart">
+                <i class="iconfont icon-icon-"></i>
+                <span>购物车</span>
+            </button>
+            <ul class="list">
+                <li><a href="#">液晶监视器</a></li>
+                <li><a href="#">矿泉水</a></li>
+                <li><a href="#">牛奶</a></li>
+                <li><a href="#">监视器摄像头</a></li>
+                <li><a href="#">衬衫男2017</a></li>
+                <li><a href="#">混合矩阵</a></li>
+                <li><a href="#">饮料</a></li>
+            </ul>
+        </div>
+        <div class="header_buttom">
+            <ul class="buttom_list">
+                <li class="menu">
+                    <i class="iconfont icon-caidan"></i>
+                    <a href="" >全部类目</a>
+                    <i class="iconfont icon-jiantoushang "></i>
+                    <i class="iconfont icon-jiantouxia"></i>
+                </li>
+                <li><a href="" class="hover">金币签到</a></li>
+                <li><a href="" class="hover">充值</a></li>
+                <li><a href="" class="hover">领卷中心</a></li>
+                <ul class="sec">
+                    <ul class="sec_list">
+                        <h3><a href="">全球进口</a></h3>
+                        <li  class="text"><a href="">乳品生鲜</a></li>
+                        <li  class="text"><a href="">饼干糕点</a></li>
+                        <li  class="text"><a href="">酒水饮料</a></li>
+                        <li  class="text"><a href="">休闲零食</a></li>
+                        <li  class="text"><a href="">糖果巧克</a></li>
+                        <li  class="text"><a href="">粮油调味</a></li>
+                        <li  class="text"><a href="">咖啡冲饮</a></li>
+                        <li  class="text"><a href="">麦片冲饮</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">美妆个护</a></li>
+                        <li  class="text"><a href="">家居清洁</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">母婴</a>/<a href="">玩具</a>/<a href="">童装</a></h3>
+                        <li  class="text"><a href="">奶粉</a></li>
+                        <li  class="text"><a href="">营养辅食</a></li>
+                        <li  class="text"><a href="">尿裤湿巾</a></li>
+                        <li  class="text"><a href="">洗护用品</a></li>
+                        <li  class="text"><a href="">喂养用品</a></li>
+                        <li  class="text"><a href="">妈妈专区</a></li>
+                        <li  class="text"><a href="">寝具服饰</a></li>
+                        <li  class="text"><a href="">童车童床</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">玩具</a></li>
+                        <li  class="text"><a href="">乐器</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">家居家纺</a>/<a href="">厨具</a>/<a href="">家具</a></h3>
+                        <li  class="text"><a href="">床上用品</a></li>
+                        <li  class="text"><a href="">生活日用</a></li>
+                        <li  class="text"><a href="">锅具水具</a></li>
+                        <li  class="text"><a href="">厨具刀具</a></li>
+                        <li  class="text"><a href="">茶具餐具</a></li>
+                        <li  class="text"><a href="">家装软饰</a></li>
+                        <li  class="text"><a href="">品质家具</a></li>
+                        <li  class="text"><a href="">家装建材</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">美妆个护</a></li>
+                        <li  class="text"><a href="">家居清洁</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">女装</a>/<a href="">男装</a>/<a href="">内衣</a></h3>
+                        <li  class="text"><a href="">时尚裙装</a></li>
+                        <li  class="text"><a href="">女士上衣</a></li>
+                        <li  class="text"><a href="">女士裤子</a></li>
+                        <li  class="text"><a href="">品质内衣</a></li>
+                        <li  class="text"><a href="">型格男装</a></li>
+                        <li  class="text"><a href="">珠宝首饰</a></li>
+                        <li  class="text"><a href="">钟表眼镜</a></li>
+                    </ul>
+                    <ul class="sec_list bd_none">
+                        <h3><a href="">手机</a>/<a href="">数码</a>/<a href="">电脑办公</a></h3>
+                        <li  class="text"><a href="">手机</a></li>
+                        <li  class="text"><a href="">手机配件</a></li>
+                        <li  class="text"><a href="">摄影影像</a></li>
+                        <li  class="text"><a href="">影音电教</a></li>
+                        <li  class="text"><a href="">智能设备</a></li>
+                        <li  class="text"><a href="">数码配件</a></li>
+                        <li  class="text"><a href="">电脑整机</a></li>
+                        <li  class="text"><a href="">网络外设</a></li>
+                        <li  class="text"><a href="">办公设备</a></li>
+                        <li  class="text"><a href="">电脑配件</a></li>
+                        <li  class="text"><a href="">电脑壁纸</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">全球进口</a></h3>
+                        <li  class="text"><a href="">乳品生鲜</a></li>
+                        <li  class="text"><a href="">饼干糕点</a></li>
+                        <li  class="text"><a href="">酒水饮料</a></li>
+                        <li  class="text"><a href="">休闲零食</a></li>
+                        <li  class="text"><a href="">糖果巧克</a></li>
+                        <li  class="text"><a href="">粮油调味</a></li>
+                        <li  class="text"><a href="">咖啡冲饮</a></li>
+                        <li  class="text"><a href="">麦片冲饮</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">美妆个护</a></li>
+                        <li  class="text"><a href="">家居清洁</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">全球进口</a></h3>
+                        <li  class="text"><a href="">乳品生鲜</a></li>
+                        <li  class="text"><a href="">饼干糕点</a></li>
+                        <li  class="text"><a href="">酒水饮料</a></li>
+                        <li  class="text"><a href="">休闲零食</a></li>
+                        <li  class="text"><a href="">糖果巧克</a></li>
+                        <li  class="text"><a href="">粮油调味</a></li>
+                        <li  class="text"><a href="">咖啡冲饮</a></li>
+                        <li  class="text"><a href="">麦片冲饮</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">美妆个护</a></li>
+                        <li  class="text"><a href="">家居清洁</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">全球进口</a></h3>
+                        <li  class="text"><a href="">乳品生鲜</a></li>
+                        <li  class="text"><a href="">饼干糕点</a></li>
+                        <li  class="text"><a href="">酒水饮料</a></li>
+                        <li  class="text"><a href="">休闲零食</a></li>
+                        <li  class="text"><a href="">糖果巧克</a></li>
+                        <li  class="text"><a href="">粮油调味</a></li>
+                        <li  class="text"><a href="">咖啡冲饮</a></li>
+                        <li  class="text"><a href="">麦片冲饮</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">美妆个护</a></li>
+                        <li  class="text"><a href="">家居清洁</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">全球进口</a></h3>
+                        <li  class="text"><a href="">乳品生鲜</a></li>
+                        <li  class="text"><a href="">饼干糕点</a></li>
+                        <li  class="text"><a href="">酒水饮料</a></li>
+                        <li  class="text"><a href="">休闲零食</a></li>
+                        <li  class="text"><a href="">糖果巧克</a></li>
+                        <li  class="text"><a href="">粮油调味</a></li>
+                        <li  class="text"><a href="">咖啡冲饮</a></li>
+                        <li  class="text"><a href="">麦片冲饮</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">美妆个护</a></li>
+                        <li  class="text"><a href="">家居清洁</a></li>
+                    </ul>
+                    <ul class="sec_list bd_none">
+                        <h3><a href="">全球进口</a></h3>
+                        <li  class="text"><a href="">乳品生鲜</a></li>
+                        <li  class="text"><a href="">饼干糕点</a></li>
+                        <li  class="text"><a href="">酒水饮料</a></li>
+                        <li  class="text"><a href="">休闲零食</a></li>
+                        <li  class="text"><a href="">糖果巧克</a></li>
+                        <li  class="text"><a href="">粮油调味</a></li>
+                        <li  class="text"><a href="">咖啡冲饮</a></li>
+                        <li  class="text"><a href="">麦片冲饮</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">美妆个护</a></li>
+                        <li  class="text"><a href="">家居清洁</a></li>
+                    </ul>
+                </ul>
+            </ul>
+        </div>
     </div>
     <!--banner -->
+    <div id="banner">
+        <!-- <div class="slider">
+        <ul class="slider-box" style="left:-1400px">
+            <li class="slider-box-item" style="background: rgb(128, 126, 206);">1</li>
+            <li class="slider-box-item" style="background: rgb(184, 121, 191);">2</li>
+            <li class="slider-box-item" style="background: rgb(16, 80, 247);">3</li>
+            <li class="slider-box-item" style="background: rgb(134, 12, 63);">4</li>
+            <li class="slider-box-item" style="background: rgb(54, 230, 69);">5</li>
+            <li class="slider-box-item" style="background: rgb(159, 190, 171);">6</li>
+        </ul>
+        <div class="slider-control"><span class="prev">&lt;</span> <span class="next">&gt;</span></div>
+        <ol class="slider-nav">
+            <li class="slider-nav-item active">1</li>
+            <li class="slider-nav-item">2</li>
+            <li class="slider-nav-item">3</li>
+            <li class="slider-nav-item">4</li>
+            <li class="slider-nav-item">5</li>
+            <li class="slider-nav-item">6</li>
+        </ol>
+    </div> -->
+    </div>
 </body>
 <script>
-
+new Slider(["http://img20.360buyimg.com/img/jfs/t1/118312/1/5372/77414/5eb3a97aE439587dc/573739f5ef98a063.jpg",
+"http://img14.360buyimg.com/img/jfs/t1/123964/15/142/94858/5eb3a84bE348b9f27/7cfd72e005e777a0.jpg"])
 </script>
 </html>
