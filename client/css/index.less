@@ -246,7 +246,7 @@ body{
         }
     }
     #banner{
-        width: 1536px;
+        width: 1520px;
         height: 400px;
         margin: 0 auto;
         .slider {
@@ -320,5 +320,255 @@ body{
             }
         }
     }
+    #single{
+    //single
+    width: 100%;
+    height: 444px;
+    margin-top: 10px;
+    overflow: hidden;
+    .single-wrap{
+        width: 1070px;
+        margin: 0 auto;
+        height: 370px;
+        background: #ff4040;
+        position: relative;
+        .single_list{
+            width:1050px;
+            height: 432px;
+            position: absolute;
+            top: 12px;
+            left: 10px;
+            .list_time{
+                width: 210px;
+                height: 216px;
+                background: #ff4040;
+                float: left;
+                a{
+                    display: block;
+                    width: 130px;
+                    height: 176px;
+                    padding: 15px 40px;
+                    img{
+                        width: 129px;
+                        height: 36px;
+                    }
+                    .limit{
+                        color: rgba(255,255,255,0.8);
+                        font-weight: bold;
+                        cursor: pointer;
+                        margin-top: 10px;
+                        margin-left: 3px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .list_item{
+                width: 210px;
+                height: 216px;
+                background: rgb(253, 250, 250);
+                transition: 1s;
+                float: left;
+                a{
+                    display: block;
+                    width: 110px;
+                    height: 176px;
+                    padding: 15px 50px;
+                    img{
+                        width: 110px;
+                        height: 110px;
+                    }
+                    span{
+                        display: block;
+                        width: 110x;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                    span:nth-of-type(1){
+                        height: 16px;
+                        overflow: hidden;
+                    }
+                    span:nth-of-type(2){
+                        height: 45px;
+                        color: red;
+                        font-weight: bold;
+                    }
+                }
+                .line{
+                    text-decoration-line: line-through;
+                    color: #ccc;
+                }
+            }
+            .list_item:hover{
+                transform:scale(1.1);
+                background-color: rgb(255, 255, 255);
+            }
+            .list_item:hover a{
+                span:nth-of-type(1){
+                    color: red;
+                }
+            }
+            
+        }
+    }
+    }
+    #load{
+        width: 100%;
+        .load-wrap{
+            width: 1070px;
+            min-height: 421px;
+            margin: 15px auto;
+            background: #ccc;
+            .load_top{
+                width: 899px;
+                height: 67px;
+                .top_left{
+                    display: block;
+                    float: left;
+                    font-size: 26px;
+                    margin-top: 17px;
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+                .top_right{
+                    display: block;
+                    margin-left: 8px;
+                    font-size: 16px;
+                    margin-top: 27px;
+                    height: 21px;
+                    cursor: pointer;
+                    float: left;
+                }
+                .top_left-one{
+                    color: #65C73E;
+                }
+                .top_right-one{
+                    color: rgba(101,199,62,0.70);
+                }
+            }
+            .load_con{
+                width: 920px;
+                height: 334px;
+                margin-left: 20px;
+               
+                .con_left{
+                    width: 189px;
+                    height: 334px;
+                    float: left;
+                    position: relative;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .con_left-nav{
+                        position: absolute;
+                        width: 176px;
+                        height: 90px;
+                        margin-left: 14px;
+                        top: 16px;
+                        .nav_list{
+                            width: 74px;
+                            height: 23px;
+                            text-align: center;
+                            line-height: 23px;
+                            float: left;
+                            margin-right: 9px;
+                            margin-bottom: 9px;
+                            cursor: pointer;
+                            font-size: 14px;
+                            color: #fff;
+                            border: 1px solid #fff;
+                        }
+                        .nav_one:hover{
+                            background: rgba(255,255,255,0.3);
+                        }
+                    }
+                }
+                .con_center{
+                    width: 731px;
+                    height: 334px;
+                    background:#fff;
+                    float: left;
+                    .center_left{
+                        width: 335px;
+                        height: 167px;
+                        float: left;
+                        background: red;
+                        position: relative;
+                        .center_text{
+                            width: 100px;
+                            margin: 40px 0 0 30px;
+                            float: left;
+                            a{
+                                .text{
+                                    display: block;
+                                    width: 100px;
+                                    height: 20px;
+                                    line-height: 20px;
+                                    font-size: 14px;
+                                    color: #69b14b;
+                                }
+                                .btn{
+                                    width: 80px;
+                                    height: 29px;
+                                    color: #72BF25;
+                                    margin-top: 15px;
+                                }
+                                .btn_one{
+                                    border: 1px solid #72BF25;
+                                }
+                            }
+                        }
+                        .center_img{
+                            width: 167px;
+                            height: 167px;
+                            float: right;
+                            a{
+                                display: block;
+                                width: 110px;
+                                height: 110px;
+                                margin: 30px auto;
+                                img{
 
+                                    width: 110px;
+                                    height: 110px;
+                                }
+                            }
+                        }
+                    }
+                    .center_item{
+                        width: 168px;
+                        height: 167px;
+                        float: left;
+                        span{
+                            display: block;
+                            width: 100px;
+                            color: #333;
+                            font-size: 14px;
+                            line-height: 14px;
+                            overflow: hidden;
+                           
+                        }
+                        .itemA{
+                            height: 14px;
+                            margin: 14px 0 0 15px;
+                        }
+                        .itemB{
+                            font-weight: bold;
+                            margin: 5px 0 0 15px;
+                        }
+                        img{
+                            width: 90px;
+                            height: 90px;
+                            float: right;
+                            margin-top: 30px;
+                        }
+                    }
+                    .center_left-one{
+                        background-color: #faf7f6;
+                    }
+                }
+            }
+            
+        }
+    }
 }
