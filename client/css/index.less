@@ -413,11 +413,13 @@ body{
     }
     #load{
         width: 100%;
+        background-color: #f4f4f4;
         .load-wrap{
             width: 1070px;
             min-height: 421px;
             margin: 15px auto;
-            background: #ccc;
+            background: #fff;
+            position: relative;
             .load_top{
                 width: 899px;
                 height: 67px;
@@ -438,12 +440,19 @@ body{
                     cursor: pointer;
                     float: left;
                 }
+                // one
                 .top_left-one{
                     color: #65C73E;
                 }
                 .top_right-one{
                     color: rgba(101,199,62,0.70);
                 }
+                //two
+                .top_left-two{color: #E451A8;}
+                .top_right-two{color: rgba(228,81,168,0.70);}
+                //three
+                .top_left-three{color: #6177CB;}
+                .top_right-three{color: rgba(97,119,203,0.70);}
             }
             .load_con{
                 width: 920px;
@@ -505,16 +514,32 @@ body{
                                     height: 20px;
                                     line-height: 20px;
                                     font-size: 14px;
+                                }
+                                .text1{  
                                     color: #69b14b;
+                                }
+                                .text2{
+                                    color:#D15AA0;
+                                }
+                                .text3{
+                                    color: #1e389a
                                 }
                                 .btn{
                                     width: 80px;
                                     height: 29px;
-                                    color: #72BF25;
                                     margin-top: 15px;
                                 }
                                 .btn_one{
                                     border: 1px solid #72BF25;
+                                    color: #72BF25;
+                                }
+                                .btn_two{
+                                    border: 1px solid #d15aa0;
+                                    color: #d15aa0;
+                                }
+                                .btn_three{
+                                    border: 1px solid #647EDC;
+                                    color: #647EDC;
                                 }
                             }
                         }
@@ -568,7 +593,180 @@ body{
                     }
                 }
             }
-            
+            .load_aside{
+                width: 171px;
+                height: 421px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: url(//img.yihaodianimg.com/front-homepage/index/images/paihangbang.png) no-repeat 50px top/90px 90px;
+                p{
+                    margin-left: 20.5px;
+                    font-size: 14px;
+                    color: #999;
+                    margin-top: 7px;
+                    width: 130px;
+                    height: 21px;
+                    font-size: 16px;
+                    color: #333;
+                }
+                .aside_color{color: #999}
+                .aside_list{
+                    width: 120px;
+                    height: 317px;
+                    background-color:#dddddd;
+                    margin-left: 20px;
+                    overflow: hidden;
+                    position: absolute;
+                    ul{
+                        width: 360px;
+                        height: 317px;
+                        position: absolute;
+                        li{
+                            width: 90px;
+                            height: 90px;
+                            float: left;
+                            margin-left: 20px;
+                            margin-top: 10px;
+                            img{
+                                width: 90px;
+                                height: 90px;
+                                background: #ffe3da;
+                                // margin-top: 15px;
+                            }
+                        }
+                    }
+                }
+                .asideBtn{
+                    width:171px ;
+                    margin-top: 310px;
+                    .asidespan{
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        font-size: 14px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #fff;
+                        border-radius: 100px;
+                        background:red;
+                        float: left;
+                        margin-left: 50px;
+                        margin-top: 10px;
+                    }
+                    .asideBtn_two1{
+                        margin-left: 20px;
+                    }
+                    .asideBtn_two2{
+                        margin-left: 20px;
+                    }
+                    .asideBtn_two3{
+                        margin-left: 20px;
+                    }
+                    .asidespan:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    #footer{
+        .footer-wrap{
+            width: 1070px;
+            height: 350px;
+            margin: 0 auto;
+            overflow: hidden;   
+            img{
+                display: block;
+                width: 1400px;
+                height: 180px;
+                margin: 0 auto;
+            }
+            .footer_top{
+                width: 795px;
+                height: 152px;
+                float: left;
+                dl{
+                    float: left;
+                    dt{
+                        width: 195px;
+                        height: 32px;
+                        font-size: 14px;
+                        color: #666;
+                        line-height: 32px;
+                        overflow: hidden;
+                        font-family: "Microsoft YaHei";
+                        font-weight: bold
+                    }
+                    dd{
+                        a{
+                            width: 195px;
+                            height: 24px;
+                            line-height: 24px;
+                            overflow: hidden;
+                            white-space: normal;
+                            font-size: 12px;
+                            color:#666;
+                        }
+
+                    }
+                    dd:hover a{color: #ff4040;}
+                        
+                }
+            }
+            .footer_right{
+                width: 260px;
+                height: 122px;
+                float: left;
+                .footer_begin{
+                    float: left;
+                    margin-left: 30px;
+                    p{
+                        width: 90px;
+                        height: 32px;
+                        line-height: 32px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #666
+                    }
+                    img{
+                        width: 90px;
+                        height: 90px;
+                    }
+                }
+            }
+           
+    }
+        .footer_bottom{
+            width: 1520px;
+            p {
+                color: #666;
+                text-align: center;
+                text-indent: 0;
+                line-height: 100%;
+                margin: 15px 0;
+                padding: 0;
+            }
+            .ft_pic_link {
+                width: 1070px;
+                height: 30px;
+                text-align: center;
+                margin: 0 auto;
+                .link_div{
+                    width: 710px;
+                    margin: 0 auto;
+                    a{
+                        width: 91px;
+                        height: 31px;
+                        float: left;
+                        margin-left: 10px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
         }
     }
 }

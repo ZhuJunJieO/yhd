@@ -10,5 +10,29 @@
         "title2": "部分领券再减",
         "title": "品质牛排",
         "btn": "立即购买"
+    },
+    {
+        "src": "https://img13.360buyimg.com/img/jfs/t1/2935/32/11086/16061/5bd12ad5Ebd8cc3cb/b66273f2c1102936.png",
+        "title2": "爆款直降",
+        "title": "护肤品",
+        "btn": "点击进入"
+    },
+    {
+        "src": "https://img12.360buyimg.com/img/jfs/t1/1925/28/12020/19078/5bd12a87Ee2504a61/fb05c40b3d286cac.png",
+        "title2": "爆款直降",
+        "title": "彩妆",
+        "btn": "点击进入"
+    },
+    {
+        "src": "https://img11.360buyimg.com/img/jfs/t1/1231/2/11319/19482/5bcee095E6fd29f13/0e6edd08149b14ce.png",
+        "title2": "爆款直降",
+        "title": "大牌让利",
+        "btn": "立即购买"
+    },
+    {
+        "src": "https://img13.360buyimg.com/img/jfs/t1/9805/24/1597/16835/5bcee12fE7093f6e8/eea25436e35202d0.png",
+        "title2": "爆款直降",
+        "title": "家电狂欢",
+        "btn": "点击进入"
     }
 ]
