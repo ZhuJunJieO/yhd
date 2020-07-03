@@ -41,6 +41,8 @@ $(() => {
             if (data.status == "success") {
                 alert(data.msg);
                 /* 跳转 */
+                localStorage.setItem("user_id", data.userId);
+                localStorage.setItem("user_name", data.username);
                 location.href="../html/index.html"
             } else {
                 alert(data.msg);

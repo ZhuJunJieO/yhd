@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/list.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .sort li {
+            float: left;
+            width: 100px;
+            height: 35px;
+            text-align: center;
+        }
+        
+        .sort .cur {
+            color: red;
+        }
+        
+        #cart {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box container">
+        <div style="height: 44px;">
+            <ul class="sort">
+                <li class="cur" data-sort="default">默认排序</li>
+                <li data-sort="price_asc">价格从低到高</li>
+                <li data-sort="price_desc">价格从高到低</li>
+            </ul>
+            <div id="cart">购物车</div>
+        </div>
+        <div>
+            <ul class="box-list">
+            </ul>
+        </div>
+        <nav style="text-align: center;">
+            <ul class="pagination">
+                <li id="prevPage">
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">上一页</span>
+                    </a>
+                </li>
+                <li id="nextPage">
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">下一页</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div class="footer-wrap">
+            <img src="../img/server.jpg" alt="">
+            <div class="footer_top">
+            <dl>
+            <dt>新手入门</dt>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=12" target="_blank">购物流程</a></dd>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=17" target="_blank">会员制度</a></dd>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=38" target="_blank">订单查询</a></dd>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=10" target="_blank">服务协议及隐私说明</a></dd>
+            <dd><a href="//seo.yhd.com/sitelink/sitemap.html" target="_blank">网站地图</a></dd>
+            </dl>
+            <dl>
+            <dt>支付方式</dt>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=25" target="_blank">货到付款</a></dd>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=26" target="_blank">网上支付</a></dd>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=28" target="_blank">礼品卡支付</a></dd>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=29" target="_blank">其它支付</a></dd>
+            </dl>
+            <dl>
+            <dt>配送服务</dt>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=21" target="_blank">配送进度查询</a></dd>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=20" target="_blank">商品验货与签收</a></dd>
+            </dl>
+            <dl>
+            <dt>相关规则</dt>
+            <dd><a href="https://cms.yhd.com/cms/view.do?topicId=206" target="_blank">平台规则</a></dd>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=31" target="_blank">退换货政策</a></dd>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=36" target="_blank">发票制度</a></dd>
+            <dd><a href="//cms.yhd.com/cms/view.do?topicId=43" target="_blank">帮助中心</a></dd>
+            </dl>
+            </div>
+            <!--footer 二维码 begin -->
+            <div class="footer_right">
+            <div class="footer_begin">
+            <p>APP更优惠</p>
+            <a href="//app.yhd.com" target="_blank">
+            <img src="//img.yihaodianimg.com/front-homepage/index/images/qryhd.png?1=1" alt="APP更优惠二维码">
+            </a>
+            </div>
+            <div class="footer_begin">
+            <p>加微信查订单</p>
+            <img src="//img30.360buyimg.com/img/jfs/t15403/130/239695202/5772/891e9fb1/5a2798bbN479da3df.jpg" alt="加微信查订单二维码">
+            </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p class="ft_footer_link">
+            </p>
+            <p class="ft_footer_link">
+            <a target="_blank">沪ICP备16050468号</a>
+            |
+            <a href="//cms.yhd.com/cms/view.do?topicId=16" target="_blank">经营证照</a>
+            |
+            <a href="//d9.yihaodianimg.com/N10/M05/00/A9/ChEi2lkQGRaAfaeeAAIhVwT2TYo18400.jpg" target="_blank">互联网药品信息服务资格证(沪)-经营性-2017-0006</a>
+            |
+            <a target="_blank">违法和不良信息举报电话：4006063968</a>
+            |
+            <a href="//d9.yihaodianimg.com/N11/M04/76/1C/ChEwoVnfFfeAfzKUAAg9urXNqaA12000.jpg" target="_blank">沪B2-20170039</a>
+            |
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010502002939" target="_blank">沪公网安备 31010502002939号</a>
+            |
+            <a href="//seo.yhd.com/sitelink/sitelink.html" target="_blank">友情链接</a>
+            |
+            <a href="//cms.yhd.com/cms/view.do?topicId=105" target="_blank">出版物经营许可证</a>
+            |
+            <a href="//img30.360buyimg.com/img/jfs/t1/6492/18/11106/1876411/5c239337Ef050b204/c78bc70077a34bf2.jpg" target="_blank">增值电信业务经营许可证</a>
+            </p>
+            <p>Copyright© 1号店网上超市 2007-2019，All Rights Reserved</p>
+            <div class="ft_pic_link">
+                <div class="link_div">
+
+                    <a href="http://net.china.com.cn/index.htm" target="_blank">
+                        <img alt="" src="//img30.360buyimg.com/img/jfs/t1/119358/20/6822/4072/5ebd1d82Ec8df0f9e/d3fae7368825c607.jpg">
+                        </a>
+                        <a href="http://scjgj.sh.gov.cn/platform/survey/step1_phone" target="_blank">
+                        <img alt="" src="//img30.360buyimg.com/img/jfs/t1/67062/24/2140/2722/5d074768Ef1d18308/f582260777c44b30.png">
+                        </a>
+                        <a href="http://www.shjbzx.cn" target="_blank">
+                        <img alt="" src="//d6.yihaodianimg.com/N10/M09/0E/1F/ChEi2lh171KAJrGlAAALl_uZt0E75600.jpg">
+                        </a>
+                        <a href="https://search.szfw.org/cert/l/CX20150608010268010812" target="_blank">
+                        <img alt="" src="//d9.yihaodianimg.com/N08/M01/C7/7E/ChEi1FYXHcOAVk_WAAAL2r2-yfo10200.jpg">
+                        </a>
+                        <a href="https://ss.knet.cn/verifyseal.dll?sn=e13050631010040492h5mq000000&amp;ct=df&amp;a=1&amp;pa=500267" target="_blank">
+                        <img alt="" src="//d9.yihaodianimg.com/N01/M03/A0/40/CgQCrlPYTqCASlHXAAAd82JE0eA31000.png">
+                        </a>
+                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010502002939" target="_blank">
+                        <img alt="" src="//img30.360buyimg.com/img/jfs/t16534/130/1965976230/19256/c267b386/5a706bb1Ne3eec0dd.png">
+                        </a>
+                        <a href="" target="_blank">
+                        <img alt="" src="//img30.360buyimg.com/img/jfs/t1/61675/5/2178/16486/5d0882e1E611dd02d/7b46518a9d74a1d6.jpg">
+                        </a>
+
+                </div>
+            
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -42,13 +42,12 @@ $(()=>{
             msg:"请两次密码保持一致"
         },
         "code": {
-            reg: `val === imgCode`,
+            reg: "val === imgCode",
             msg: "图形验证码不正确！"
         }
     }
     $(".main_con").on("blur","input",function() {
         let option_id = this.id;
-
         let val = $.trim($(this).val());
 
         if (eval(options[option_id].reg)) {
