@@ -764,6 +764,9 @@ body #footer .footer_bottom p {
   margin: 15px 0;
   padding: 0;
 }
+body #footer .footer_bottom p a {
+  color: #333;
+}
 body #footer .footer_bottom .ft_pic_link {
   width: 1070px;
   height: 30px;

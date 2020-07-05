@@ -44,7 +44,6 @@ $(() => {
                                 <img src=${item.src}>
                                 <div class="price ">${item.price}</div>
                                 <div class="title ">${item.title.slice(0, 15)}</div>
-                                <div class="dis ">${item.disCount}</div>
                                 <div class="storeName ">${item.shopName}</div>
                             </div>
                           <div class="addCart">加入购物车</div>

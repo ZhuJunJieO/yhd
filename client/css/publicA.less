@@ -1,0 +1,339 @@
+body{
+    font: 12px "Microsoft YaHei",Helvetica Neue,tahoma,Arial,Verdana,"Hiragino Sans GB","\5b8b\4f53" !important;
+    #top{
+        // 最顶部信息栏
+        height: 30px;
+        border-bottom: 1px solid #e5e5e5;
+        background-color: #f4f4f4;
+        line-height: 30px;
+        .top-wrap{
+            width: 1070px;
+            height: 30px;
+            margin: 0 auto;
+            .top_left{
+                width: 380px;
+                height: 30px;
+                float: left;
+                .left_left{
+                    width: 120px;
+                    float: left;
+                    i{color: #ff4040; }
+                    .text{padding-left: 3px;}
+                }
+                .left_left:hover{color:#ff4040 ;}
+                .left_right{
+                    width: 250px;
+                    height: 30px;
+                    line-height: 30px;
+                    overflow: hidden;
+                    .icon-laba{
+                        float: left;
+                        color: #ff4040;
+                        padding-left: 10px;
+                        font-size: 14px;
+                        line-height: 30px;
+                    }
+                    .laba{
+                        float: left;
+                        line-height: 30px;
+                        .text{color: #333333;}
+                    }
+                }
+            }
+            .top_right{
+                width:320px;
+                height: 30px;
+                float: right;
+                span,.pLogin,.pRegister,.iconfont{
+                    display: block;
+                    float: left;
+                    margin-left: 5px;
+                }
+                .hi{color: #666666;}
+                .pLogin{color: #ff4040;margin-right: 10px;}
+                .iconfont{color: #ff4040;font-size: 18px;}
+                .pRegister{color:#aaa;margin-right: 5px;}
+                .pRegister:hover{color: #ff4040;}
+                .buy{font-size: 12px;}
+            }
+        }
+    }
+    .header-wrap{
+        width: 1070px;
+        height: 180px;
+        margin: 0 auto;
+        position: relative;
+        .header_left{
+            width: 300px;
+            height: 140px;
+            float: left;
+            position: relative;
+            z-index: 20;
+            .logo{
+                width: 140px;
+                height: 50px;
+                img{
+                    width: 140px;
+                    height: 140px;
+                }
+            }
+            .slogo{
+                width: 160px;
+                height: 90px;
+                position: absolute;
+                left: 140px;
+                top: 35px;
+                z-index: 1;
+                img{
+                    width: 160px;
+                    height: 90px;
+                }
+            }
+        }
+        .header_right{
+            position: relative;
+            float: right;
+            width: 650px;
+            padding-top: 50px;
+            .search{
+                input{
+                    width: 470px;
+                    border-radius: 100px;
+                    height: 38px;
+                    line-height: 38px;
+                    color: #333;
+                    background: #fcfcfc;
+                    border: 1px solid #333;
+                    padding-left:20px;
+                }
+                .icon-sousuo{
+                    border-radius: 100px;
+                    font-size: 24px;
+                    line-height: 26px;
+                    position: absolute;
+                    left: 429px;
+                    border: none;
+                    top: 55px;
+                    background:#fcfcfc ;
+                }
+                input:hover{
+                    border: 1px solid red;
+                }
+            }
+            .list{
+                height: 30px;
+                padding-top: 8px;
+                padding-left: 32px;
+                overflow: hidden;
+                li{
+                    float: left;
+                    margin-right: 15px;
+                    a{
+                        color: #666;
+                    }
+                    a:hover{
+                        color: rgb(15, 14, 14);
+                    }
+                }
+            }
+        }
+        .header_buttom{
+            width: 1070px;
+            height: 38px;
+            position: absolute;
+            bottom: 0;
+            .buttom_list{
+                width: 1070px;
+                height: 38px;
+                position: relative; 
+                li{
+                    width: 100px;
+                    float: left;
+                    a{
+                        display: block;
+                        height: 38px;
+                        line-height: 38px;
+                        font-size: 16px;
+                        margin-left: 30px;
+                        text-align: center;
+                        color: #333;
+                    }
+                    .hover:hover{color: red;}
+                }
+                .menu{
+                    background:#ff4040;
+                    padding-right:25px;
+                    margin-left: 10px;
+                    position: relative;
+                    a{
+                        color: #fff;
+                    }
+                    .icon-caidan{
+                        position: absolute;
+                        left: 10px;
+                        top: 10px;
+                        color: #fff;
+                    }
+                    .icon-jiantouxia{
+                        position: absolute;
+                        top: 10px;
+                        right: 5px;
+                        color: #fff;
+                    }
+                    .icon-jiantoushang{
+                        display: none;
+                        position: absolute;
+                        top: 10px;
+                        right: 5px;
+                        color: #fff;
+                    }
+                }
+                .sec{
+                    display: none;
+                    width: 1114px;
+                    height: 440px;
+                    border: 1px solid red;
+                    border-top: 3px solid red;
+                    position: absolute;
+                    top: 38px;
+                    left: 10px;
+                    padding: 20px 10px;
+                    background: #fff;
+                    z-index: 2;
+                    .sec_list{
+                        width: 210px;
+                        height: 200px;
+                        float: left;
+                        margin-left: 8px;
+                        border-right: 1px solid red;
+                        .text{
+                            a{
+                                width: 50px;
+                                height: 25px;
+                                font-size: 12px;
+                                float: left !important;
+                            }
+                            a:hover{
+                                color: red;
+                            }
+                        }
+                        h3{
+                            a{
+                            color: #333;
+                            width: 200px;
+                            font-size: 20px;
+                        }
+                            a:hover{color: red;}
+                        }
+                    }
+                    .bd_none{border: none;}
+                }
+            }
+            .buttom_list:hover .sec{
+                display: block;
+            }
+        }
+    }
+    #footer{
+        .footer-wrap{
+            width: 1070px;
+            height: 350px;
+            margin: 0 auto;
+            overflow: hidden;   
+            img{
+                display: block;
+                width: 1400px;
+                height: 180px;
+                margin: 0 auto;
+            }
+            .footer_top{
+                width: 795px;
+                height: 152px;
+                float: left;
+                dl{
+                    float: left;
+                    dt{
+                        width: 195px;
+                        height: 32px;
+                        font-size: 14px;
+                        color: #666;
+                        line-height: 32px;
+                        overflow: hidden;
+                        font-family: "Microsoft YaHei";
+                        font-weight: bold
+                    }
+                    dd{
+                        a{
+                            width: 195px;
+                            height: 24px;
+                            line-height: 24px;
+                            overflow: hidden;
+                            white-space: normal;
+                            font-size: 12px;
+                            color:#666;
+                        }
+
+                    }
+                    dd:hover a{color: #ff4040;}
+                        
+                }
+            }
+            .footer_right{
+                width: 260px;
+                height: 122px;
+                float: left;
+                .footer_begin{
+                    float: left;
+                    margin-left: 30px;
+                    p{
+                        width: 90px;
+                        height: 32px;
+                        line-height: 32px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #666
+                    }
+                    img{
+                        width: 90px;
+                        height: 90px;
+                    }
+                }
+            }
+           
+    }
+        .footer_bottom{
+            width: 1520px;
+            p {
+                color: #666;
+                text-align: center;
+                text-indent: 0;
+                line-height: 100%;
+                margin: 15px 0;
+                padding: 0;
+                a{
+                    color:#333;
+                }
+            }
+            .ft_pic_link {
+                width: 1070px;
+                height: 30px;
+                text-align: center;
+                margin: 0 auto;
+                .link_div{
+                    width: 710px;
+                    margin: 0 auto;
+                    a{
+                        width: 91px;
+                        height: 31px;
+                        float: left;
+                        margin-left: 10px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

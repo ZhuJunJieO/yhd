@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/publicA.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/jquery-3.4.1.js"></script>
     <script src="../js/list.js"></script>
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/iconfont.css">
+    <script src="../js/index.js"></script>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <style>
@@ -19,6 +21,7 @@
             width: 100px;
             height: 35px;
             text-align: center;
+            cursor: pointer;
         }
         
         .sort .cur {
@@ -32,6 +35,212 @@
 </head>
 
 <body>
+    <div id="top">
+        <div class="top-wrap">
+            <div class="top_left">
+                <a href="" class="left_left">
+                <i class="iconfont icon-position"></i>
+                <span class="text">送货地址&nbsp:</span>
+                <em>广州</em>
+                </a>
+                <div class="left_right">
+                    <i class="iconfont icon-laba"></i>
+                    <ul class="laba" style="top: 0px;">
+                        <a href="//cms.yhd.com/cms/view.do?topicId=259" title="1号店PC及H5调整公告" target="_blank" clstag="pageclick|keycount|shouye_20181018|toolbar_Announcement1">
+                        <li class="hd_topbar_home_li"><span class="text">1号店PC及H5调整公告</span></li>
+                        </a>
+                        <a href="//cms.yhd.com/cms/view.do?topicId=250" title="金币、优惠券下线公告" target="_blank" clstag="pageclick|keycount|shouye_20181018|toolbar_Announcement2">
+                        <li class="hd_topbar_home_li"><span class="text">金币、优惠券下线公告</span></li>
+                        </a>
+                        <a href="//cms.yhd.com/cms/view.do?topicId=252" title="“老龄卡”“平安卡”业务调整公告" target="_blank" clstag="pageclick|keycount|shouye_20181018|toolbar_Announcement3">
+                        <li class="hd_topbar_home_li"><span class="text">“老龄卡”“平安卡”业务调整公告</span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="top_right">
+                <span class="hi">早上好,请</span>
+                <a href="../html/login.html" class="pLogin">登录</a>
+                <a href="../html/register.html" class="pRegister">注册</a>
+                <i class="iconfont icon-huiyuan"></i>
+                
+                <a href=""><span>会员俱乐部</span></a>
+                <i class="iconfont icon-dingdan buy"></i>
+                <a href="""><span>我的订单</span></a>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <div class="header-wrap">
+        <div class="header_left">
+            <a href="./index.html" class="logo"><img src="https://img.yihaodianimg.com/front-homepage/global/images/logo/logo_new@2x.png" alt=""></a>
+            <a target="_blank" class="slogo href="#"><img src="https://img30.360buyimg.com/img/jfs/t28237/269/997297430/10022/b24f8009/5c05314cNf894bdef.jpg"></a>
+        </div>
+        <div class="header_right">
+            <div class="search">
+                <input type="text" value="钢琴">
+                <button class="iconfont icon-sousuo"></button>
+            </div>
+            <ul class="list">
+                <li><a href="#">液晶监视器</a></li>
+                <li><a href="#">矿泉水</a></li>
+                <li><a href="#">牛奶</a></li>
+                <li><a href="#">监视器摄像头</a></li>
+                <li><a href="#">衬衫男2017</a></li>
+                <li><a href="#">混合矩阵</a></li>
+                <li><a href="#">饮料</a></li>
+            </ul>
+        </div>
+        <div class="header_buttom">
+            <ul class="buttom_list">
+                <li class="menu">
+                    <i class="iconfont icon-caidan"></i>
+                    <a href="" >全部类目</a>
+                    <i class="iconfont icon-jiantoushang "></i>
+                    <i class="iconfont icon-jiantouxia"></i>
+                </li>
+                <li><a href="" class="hover">金币签到</a></li>
+                <li><a href="" class="hover">充值</a></li>
+                <li><a href="" class="hover">领卷中心</a></li>
+                <ul class="sec">
+                    <ul class="sec_list">
+                        <h3><a href="">全球进口</a></h3>
+                        <li  class="text"><a href="./list.html">乳品生鲜</a></li>
+                        <li  class="text"><a href="">饼干糕点</a></li>
+                        <li  class="text"><a href="">酒水饮料</a></li>
+                        <li  class="text"><a href="">休闲零食</a></li>
+                        <li  class="text"><a href="">糖果巧克</a></li>
+                        <li  class="text"><a href="">粮油调味</a></li>
+                        <li  class="text"><a href="">咖啡冲饮</a></li>
+                        <li  class="text"><a href="">麦片冲饮</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">美妆个护</a></li>
+                        <li  class="text"><a href="">家居清洁</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">母婴</a>/<a href="">玩具</a>/<a href="">童装</a></h3>
+                        <li  class="text"><a href="">奶粉</a></li>
+                        <li  class="text"><a href="">营养辅食</a></li>
+                        <li  class="text"><a href="">尿裤湿巾</a></li>
+                        <li  class="text"><a href="">洗护用品</a></li>
+                        <li  class="text"><a href="">喂养用品</a></li>
+                        <li  class="text"><a href="">妈妈专区</a></li>
+                        <li  class="text"><a href="">寝具服饰</a></li>
+                        <li  class="text"><a href="">童车童床</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">玩具</a></li>
+                        <li  class="text"><a href="">乐器</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">家居家纺</a>/<a href="">厨具</a>/<a href="">家具</a></h3>
+                        <li  class="text"><a href="">床上用品</a></li>
+                        <li  class="text"><a href="">生活日用</a></li>
+                        <li  class="text"><a href="">锅具水具</a></li>
+                        <li  class="text"><a href="">厨具刀具</a></li>
+                        <li  class="text"><a href="">茶具餐具</a></li>
+                        <li  class="text"><a href="">家装软饰</a></li>
+                        <li  class="text"><a href="">品质家具</a></li>
+                        <li  class="text"><a href="">家装建材</a></li>
+                        <li  class="text"><a href="">母婴玩具</a></li>
+                        <li  class="text"><a href="">美妆个护</a></li>
+                        <li  class="text"><a href="">家居清洁</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">女装</a>/<a href="">男装</a>/<a href="">内衣</a></h3>
+                        <li  class="text"><a href="">时尚裙装</a></li>
+                        <li  class="text"><a href="">女士上衣</a></li>
+                        <li  class="text"><a href="">女士裤子</a></li>
+                        <li  class="text"><a href="">品质内衣</a></li>
+                        <li  class="text"><a href="">型格男装</a></li>
+                        <li  class="text"><a href="">珠宝首饰</a></li>
+                        <li  class="text"><a href="">钟表眼镜</a></li>
+                    </ul>
+                    <ul class="sec_list bd_none">
+                        <h3><a href="">手机</a>/<a href="">数码</a>/<a href="">电脑办公</a></h3>
+                        <li  class="text"><a href="">手机</a></li>
+                        <li  class="text"><a href="">手机配件</a></li>
+                        <li  class="text"><a href="">摄影影像</a></li>
+                        <li  class="text"><a href="">影音电教</a></li>
+                        <li  class="text"><a href="">智能设备</a></li>
+                        <li  class="text"><a href="">数码配件</a></li>
+                        <li  class="text"><a href="">电脑整机</a></li>
+                        <li  class="text"><a href="">网络外设</a></li>
+                        <li  class="text"><a href="">办公设备</a></li>
+                        <li  class="text"><a href="">电脑配件</a></li>
+                        <li  class="text"><a href="">电脑壁纸</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">食品</a>/<a href="">酒</a>/<a href="">生鲜</a></h3>
+                        <li  class="text"><a href="">饮料</a></li>
+                        <li  class="text"><a href="">酒类</a></li>
+                        <li  class="text"><a href="">休闲零食</a></li>
+                        <li  class="text"><a href="">粮油干货</a></li>
+                        <li  class="text"><a href="">厨房调料</a></li>
+                        <li  class="text"><a href="">粮油调味</a></li>
+                        <li  class="text"><a href="">饼干糕点</a></li>
+                        <li  class="text"><a href="">牛奶乳品</a></li>
+                        <li  class="text"><a href="">茶冲咖啡</a></li>
+                        <li  class="text"><a href="">肉蛋海鲜</a></li>
+                        <li  class="text"><a href="">新鲜蔬果</a></li>
+                        <li  class="text"><a href="">方便速食</a></li>
+                        <li  class="text"><a href="">乳品速食</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">纸巾</a>/<a href="">清洁</a>/<a href="">宠物</a></h3>
+                        <li  class="text"><a href="">纸品湿巾</a></li>
+                        <li  class="text"><a href="">衣物清洁</a></li>
+                        <li  class="text"><a href="">家庭清洁</a></li>
+                        <li  class="text"><a href="">清洁用具</a></li>
+                        <li  class="text"><a href="">驱虫除湿</a></li>
+                        <li  class="text"><a href="">皮具护理</a></li>
+                        <li  class="text"><a href="">宠物生活</a></li>
+                        <li  class="text"><a href="">绿植园艺</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">美妆</a>/<a href="">个人清洁</a></h3>
+                        <li  class="text"><a href="">美发护发</a></li>
+                        <li  class="text"><a href="">女性护理</a></li>
+                        <li  class="text"><a href="">沐浴清洁</a></li>
+                        <li  class="text"><a href="">口腔护理</a></li>
+                        <li  class="text"><a href="">面部护理</a></li>
+                        <li  class="text"><a href="">缤纷彩妆</a></li>
+                        <li  class="text"><a href="">身体护理</a></li>
+                        <li  class="text"><a href="">男士护理</a></li>
+                        <li  class="text"><a href="">美容工具</a></li>
+                        <li  class="text"><a href="">美妆个护</a></li>
+                    </ul>
+                    <ul class="sec_list">
+                        <h3><a href="">鞋靴</a>/<a href="">箱包</a>/<a href="">运动户外</a></h3>
+                        <li  class="text"><a href="">时尚女鞋</a></li>
+                        <li  class="text"><a href="">潮流女包</a></li>
+                        <li  class="text"><a href="">奢侈大牌</a></li>
+                        <li  class="text"><a href="">功能箱包</a></li>
+                        <li  class="text"><a href="">品质男鞋</a></li>
+                        <li  class="text"><a href="">精品男包</a></li>
+                        <li  class="text"><a href="">运动鞋服</a></li>
+                        <li  class="text"><a href="">健身器材</a></li>
+                        <li  class="text"><a href="">户外装备</a></li>
+                        <li  class="text"><a href="">户外鞋服</a></li>
+                        <li  class="text"><a href="">运动护具</a></li>
+                    </ul>
+                    <ul class="sec_list bd_none">
+                        <h3><a href="">图书</a></h3>
+                        <li  class="text"><a href="">少儿</a></li>
+                        <li  class="text"><a href="">教育</a></li>
+                        <li  class="text"><a href="">文艺</a></li>
+                        <li  class="text"><a href="">励志</a></li>
+                        <li  class="text"><a href="">人文</a></li>
+                        <li  class="text"><a href="">科技</a></li>
+                        <li  class="text"><a href="">生活</a></li>
+                        <li  class="text"><a href="">历史</a></li>
+                        <li  class="text"><a href="">杂志</a></li>
+                        <li  class="text"><a href="">小说</a></li>
+                        <li  class="text"><a href=""></a></li>
+                    </ul>
+                </ul>
+            </ul>
+        </div>
+    </div>
     <div class="box container">
         <div style="height: 44px;">
             <ul class="sort">
